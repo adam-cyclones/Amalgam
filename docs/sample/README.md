@@ -1,55 +1,65 @@
-# 🕊️ PigeonCode - The IDE that Coo-dles You 🕊️
+# Coo-Cart 🕊️
 
-## Overview
-
-**PigeonCode** is the IDE crafted especially for wood pigeon enthusiasts and developers. Ever felt that your coding environments lacked a touch of avian elegance? PigeonCode is here to marry the beauty of wood pigeons with the world of code!
+A simple Wood Pigeon themed shopping cart system, named after the cooing sound these birds make.
 
 ## Features
 
-1. **Feathery Themes**: Opt from a palette of pigeon-inspired themes and serene landscapes.
-2. **Coo-l Autocomplete**: As you type, receive suggestions from a library of pigeon-related variable names and functions.
-3. **Dual Flight Mode**: Code alongside a partner in a synchronized session. Both can see a floating pigeon icon while making edits.
-4. **Code Linting with FeatherCheck**: Our linting tool, FeatherCheck, guarantees your code flies smoothly.
-5. **ChirpTunes Mode**: Immerse yourself in the calming coos and chirps of pigeons while you code.
-6. **Nest Breaks**: Set reminders to stretch your wings, accompanied by delightful pigeon GIFs.
-7. **FlightPath Mode**: Visualize your code's flow using elegant flight trails.
+List available Wood Pigeon themed products.
+Add products to cart.
+View cart items and their total price.
+
+## Setup and Usage
+
+### Prerequisites
+
+A modern web browser that supports ES6+ features.
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://example.com/example/pigeoncode-ide.git
-   ```
-2. Move to the project directory:
-   ```
-   cd pigeoncode-ide
-   ```
-3. Install required packages:
-   ```
-   npm install
-   ```
-4. Start the IDE:
-   ```
-   npm start
-   ```
+### Clone this repository:
 
-## Contributing
+```bash
 
-Inspired to add more feathered features? Fork our repository, implement your changes, and then send us a pull request. All bird enthusiasts are invited to contribute! Just ensure FeatherCheck gives your code a green signal.
+git clone https://github.com/your-username/coo-cart.git
+```
 
-## Code of Conduct
+Navigate to the cloned directory:
 
-1. Always be coo-teous and kind.
-2. No predatory birds! (Just joking, all bird lovers are cherished. But remember, it's PigeonCode!)
+```bash
 
-## License
+cd coo-cart
 
-PigeonCode is open under the MIT License. You're free to utilize, modify, and distribute, but kindly acknowledge the initial developers.
+```
 
-## Special Acknowledgments
+Open the index.html file in your preferred web browser.
 
-A soaring thanks to our pigeon pals for motivating us and offering peaceful coos during our intensive coding sessions!
+### Usage
 
----
+You dont its a silly idea, but if you did, then browse the available Wood Pigeon themed products.
+Click "Add to Cart" to add desired products to your cart.
+View your cart contents and the total price at the bottom of the page.
 
-**Take your coding to new heights with PigeonCode today! 🕊️💻**
+## Customization
+
+You can easily add more products by editing the index.html file. Follow the existing format:
+
+```html
+<div class="product" data-id="YOUR_PRODUCT_ID" data-price="YOUR_PRODUCT_PRICE">
+  YOUR_PRODUCT_NAME - $YOUR_PRODUCT_PRICE
+  <button
+    onclick="addToCart(YOUR_PRODUCT_ID, 'YOUR_PRODUCT_NAME', YOUR_PRODUCT_PRICE)"
+  >
+    Add to Cart
+  </button>
+</div>
+```
+
+Replace the placeholders (YOUR_PRODUCT_ID, YOUR_PRODUCT_NAME, YOUR_PRODUCT_PRICE) with appropriate values for your new products.
+Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+License
+
+## MIT
+
+This README provides a basic overview of your project, its setup, usage, and customization. Feel free to expand upon it based on the needs and complexities of your project.
